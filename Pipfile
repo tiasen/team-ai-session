@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+transformers = "*"
+torch = "*"
+pytesseract = "*"
+openai = "*"
+tiktoken = "*"
+python-dotenv = "*"
+sentencepiece = "*"
+datasets = "*"
+soundfile = "*"
+fairseq = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.4"
